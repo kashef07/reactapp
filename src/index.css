@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Login page start*/
+.img{
+  background-image: url('./images/bgimage.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 752px;
+}
+.list{
+  position:absolute;
+  margin-left:970px ;
+  margin-top: 240px;
+}
+.list li{
+  display: inline;
+  padding: 7px;
+  
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+a:hover{
+  text-decoration: underline;
+}
+.form{
+  position: absolute;
+  background-color: white;
+  margin-left:950px ;
+  margin-top: 270px;
+  width:200px;
+  padding: 30px;
+  height: 170px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  
+}
+.btn{
+  position:absolute;
+  margin-left:1020px ;
+  margin-top: 480px;
+  padding: 12px 38px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+input{
+  padding: 10px;
+  border: none;
+  background-color:white;
+  border-bottom: 2px solid grey ;
+  margin-top:-20px ;
+}
+input:focus{
+  outline:none;
+}
+u{
+  color: grey;
+}
+/*Login page end*/
+
+/*home page start*/
+  /*side nav*/
+.sidenav{
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  background-color: orange;
+  height: 722px;
+  width: fit-content;
+}
+.sidenav li{
+  margin-top: 15px;
+}
+.sidenav li i{
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  font-size: 18px;
+}
+ .sidenav li i:hover{
+  background-color: white;
+  color: orange;
+  padding: 10px;
+  border-radius: 15px;
+  font-size:18px;
+  box-shadow:2px 5px 8px grey ;
+} 
+.sidenav li i:active{
+  background-color: white;
+  color: orange;
+  padding: 10px;
+  border-radius: 15px;
+  font-size:18px;
+  box-shadow:2px 5px 8px grey ;
+} 
+  /*user div*/
+.user{
+  position: absolute;
+  width: 330px;
+  height: 130px;
+  background-color:#fefafa6f;
+  margin-left: 120px;
+  margin-top: -700px;
+  padding-left: 12px;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.user i{
+  float: right;
+  margin-top: -70px;
+  margin-right:50px ;
+  font-size: 90px;
+  color: orange;
+}
+/*medal div*/
+.congrats{
+  position: absolute;
+  width: 350px;
+  height: 320px;
+  padding-top: 25px;
+  background-color:#fefafa6f;
+  margin-left: 120px;
+  margin-top: -530px;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.congrats .img1{
+  margin-top: 20px;
+}
+.congrats p{
+  margin-left: 50px;
+  color: red;
+  font-size: 20px;
+}
+.congrats .sidediv{
+  margin-left: 190px;
+  margin-right: 10px;
+  margin-top:-285px ;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.congrats .sidediv1{
+  display: flex;
+  justify-content: space-around;
+}
+/*medal sidediv*/
+.sidediv .num{
+  margin-top: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: rgb(28, 221, 28);
+}
+.sidediv .vl{
+  border-left: 2px solid grey;
+  height: 50px;
+}
+.sidediv2{
+  display: flex;
+  border-radius: 15px;
+}
+.sidediv2 .img2{
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+}
+.sidediv2:hover{
+  box-shadow: 2px 5px 8px grey ;
+}
+hr{
+  width: 18px;
+  background-color: grey;
+}
+/*graph div*/
+.graph{
+  position: absolute;
+  width: 290px;
+  height: 120px;
+  background-color:#fefafa6f;
+  margin-left: 120px;
+  margin-top: -150px;
+  padding: 0px 30px;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.graph .img3{
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -80px;
+}
+/*calendar div*/
+.calendiv{
+  position: absolute;
+  width: 740px;
+  height: 620px;
+  background-color:#fefafa6f;
+  margin-left: 700px;
+  margin-top: -700px;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.calendiv .calen{
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey inset ;
+}
+.date{
+  margin-left: 500px;
+  margin-top: -250px;
+}
+.date p{
+  font-size: 24px;
+}
+.sunrise{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  margin-left:400px ;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+  
+}
+.sunrise2{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  margin-left:600px ;
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.sunrise3{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  margin-left:400px ;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.sunrise4{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  margin-left:600px ;
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+
+/*id main div*/
+.idmain{
+  width: 680px;
+  height: 200px;
+  background-color: white;
+  margin-left:20px ;
+  padding: 23px;
+  display: flex;
+  border-radius: 20px;
+  box-shadow:2px 5px 8px grey ;
+}
+.icons p{
+  margin-left: 280px;
+  border: 2px solid black;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.icons #mapicon{
+  margin-left: 280px;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  font-size: 30px;
+  border-radius: 15px;
+  box-shadow:2px 5px 8px grey ;
+  color: gray;
+}
+.icons #phoneicon{
+  margin-left: 20px;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  font-size: 30px;
+  border-radius: 15px;
+  box-shadow:2px 5px 8px grey ;
+  color: gray;
+}
+ .idmain .btn2{
+  position: absolute;
+  padding: 12px 38px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  margin-top: 200px;
+  margin-left: 250px;
+}
